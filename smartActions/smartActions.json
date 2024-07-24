@@ -1,0 +1,96 @@
+[
+  {
+    "id": "6060c0df",
+    "name": "Extension: Shopify Quicktask Template",
+    "enabled": true,
+    "notifications": true,
+    "webhooks": true,
+    "runOnce": false,
+    "runInterval": null,
+    "lastRun": null,
+    "lastCompleted": null,
+    "lastResult": null,
+    "trigger": "command_trigger",
+    "filters": [
+      {
+        "behaviour": 0,
+        "operator": "equals",
+        "variable": "Name",
+        "inputs": ["CMD_QUICKTASK"]
+      }
+    ],
+    "actions": [
+      { "id": "nav_task_group", "params": {} },
+      { "id": "get_task_group", "params": {} },
+      {
+        "id": "create_tasks",
+        "params": {
+          "group": { "variable": "actions.1.Task Group" },
+          "input": { "variable": "trigger.0.Value" },
+          "store": { "value": "Custom" }
+        }
+      }
+    ]
+  },
+  {
+    "id": "70ce0925",
+    "name": "Extension: Mass Link Change Template",
+    "enabled": true,
+    "notifications": true,
+    "webhooks": true,
+    "runOnce": false,
+    "runInterval": null,
+    "lastRun": "2024-07-24T11:18:16.2248879-07:00",
+    "lastCompleted": "2024-07-24T11:18:16.2248781-07:00",
+    "lastResult": 0,
+    "trigger": "command_trigger",
+    "filters": [
+      {
+        "behaviour": 0,
+        "operator": "equals",
+        "variable": "Name",
+        "inputs": ["CMD_MASS_LINK_CHANGE"]
+      }
+    ],
+    "actions": [
+      { "id": "get_task_group", "params": {} },
+      {
+        "id": "mass_link_change",
+        "params": { "url": { "variable": "trigger.0.Value" } }
+      }
+    ]
+  },
+  {
+    "id": "7bf444a5",
+    "name": "Extension: Nike Quicktask Template",
+    "enabled": true,
+    "notifications": true,
+    "webhooks": true,
+    "runOnce": false,
+    "runInterval": null,
+    "lastRun": null,
+    "lastCompleted": null,
+    "lastResult": null,
+    "trigger": "command_trigger",
+    "filters": [
+      {
+        "behaviour": 0,
+        "operator": "equals",
+        "variable": "Name",
+        "inputs": ["CMD_NIKE_QUICKTASK"]
+      }
+    ],
+    "actions": [
+      { "id": "nav_task_group", "params": {} },
+      { "id": "get_task_group", "params": {} },
+      {
+        "id": "create_tasks",
+        "params": {
+          "group": { "variable": "actions.1.Task Group" },
+          "input": { "variable": "trigger.0.Value" },
+          "store": { "value": "Nike US" }
+        }
+      }
+    ]
+  }
+]

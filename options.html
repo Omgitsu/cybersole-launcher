@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cybersole Launcher Options</title>
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
+  </head>
+  <style>
+    label {
+      font-size: 15px;
+    }
+    .hidden {
+      display: none;
+    }
+    .toggle-btn {
+      margin-top: 8px;
+    }
+    .pad-left-0 {
+      padding-left: 0px !important;
+    }
+    .pad-right-0 {
+      padding-right: 0px !important;
+    }
+    .license-button {
+      cursor: pointer;
+      background: none;
+      margin-top:  0.5rem;
+      border: 1px solid #34344f;
+      min-width: 40px;
+      width: 40px;
+      min-height: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: .5rem;
+      background-color: #232335;
+      margin-left: .25rem;
+    }
+  </style>
+  <body>
+    <app>
+      <div class="popup-component noselect">
+        <div class="custom-popup commands-popup">
+          <div class="popup-content" role="document">
+            <div class="popup-header">
+              <div class="header">
+                <div class="title-row">
+                  
+                  <div class="icon-container">
+                    <i class="icon commands-modal-icon"></i>
+                  </div>
+                  <span class="title">Cybersole Action Launcher</span>
+                  <div class="icon-button">
+                    <i class="icon close-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="popup-body">
+              
+              <form id="link-change-form">
+                <div class="input-container mt-3" id="apiKeyField">
+                  <label>Cybersole API Key (required)</label>
+                  <div class="inputs-row">
+                    <div class="form-input">
+                      <input id="apiKey" placeholder="Cybersole API Key" data-label="apiKey" class="valid"/>
+                    </div>
+                    <button type="button" class="license-button" id="api-key-reload-button">
+                      <i class="icon grey-reset-icon"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div class="input-container mt-3" id="instance-select-field">
+                <label>Cybersole Instance</label>
+                <div class="inputs-row">
+                  <div class="col-6 pad-left-0">
+                    <div class="custom-dropdown" id="custom-dropdown-instance" data-label="instance">
+                      <button class="toggle-btn valid placeholder" type="button" id="dropdown-button">
+                      <span id="selected-dropdown-item-label">Select Instance (required)</span>
+                      <input type="hidden" id="value" value="">
+                      <i class="icon dropdown-icon"></i></button>
+                      <div id="instance-dropdown" class="dropdown-content" style="min-width: 250px; max-width: 250px; overflow-anchor: none;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-container mt-3" id="command-select-field">
+              <label>Command</label>
+              <div class="inputs-row">
+                <div class="col-6 pad-left-0">
+                  <div class="custom-dropdown" id="custom-dropdown-command" data-label="command">
+                    <button class="toggle-btn valid placeholder" type="button" id="dropdown-button">
+                    <span id="selected-dropdown-item-label">Select Command</span>
+                    <input type="hidden" id="value" value="">
+                    <i class="icon dropdown-icon"></i></button>
+                    <div id="command-dropdown" class="dropdown-content" style="min-width: 250px; max-width: 250px; overflow-anchor: none;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-container mt-3" id="control-buttons">
+            <div class="popup-error"><div class="error-row"></div></div>
+            <div class="popup-footer">
+              <div class="footer">
+                <div class="button-row">
+                  <div class="w-50">
+                    <button class="modal-cancel-button">Cancel</button>
+                </div>
+                <div class="w-50">
+                  <button class="modal-confirm-button" id="save">Save Settings</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-shadow "></div>
+    </app>
+    <script src="js/lodash.js"></script>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
