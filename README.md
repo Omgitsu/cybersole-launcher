@@ -34,7 +34,8 @@ This is also super-useful for mass link changing on drops where keywords and SKU
     - `instances.list`
   * Click Create
   * Copy your new API key
-> [!TIP]: Give it a desciptive name so you remember what it's for.
+> [!TIP]
+Give it a desciptive name so you remember what it's for.
 
 4. **Set up the Extension**
   * Click the Cybersole icon in chrome (or right-click icon + navigate to `Options`)
@@ -57,7 +58,8 @@ This is also super-useful for mass link changing on drops where keywords and SKU
 - (or) trigger via keybind
 3. **Good Luck**
 
-> [!TIP]: Use Keybinds / Shortcuts!
+> [!TIP]
+Use Keybinds / Shortcuts!
 Keybinds make this even quicker and much more dangerous - go to [Chrome Shortcuts](chrome://extensions/shortcuts). Find `Cybersole Launcher`. Add a key binding to trigger the extension!
 
 
@@ -94,7 +96,7 @@ value: parses the url for the page SKU and sends the SKU (if on a nike site)
 **Read more about Cybersole API Commands here:**
 [Cybersole API docs](https://docs.cybersole.io/)
 
-> [!TIP]: Programmer Protip
+> [!TIP]
 You can edit the `commands.js` file to add your own custom commands. You will probably also want to extend the `callAPI()` function to parse the url (say, for a SKU), or do a regex on the page contents, or whatever.
 
 
