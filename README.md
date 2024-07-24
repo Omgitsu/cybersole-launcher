@@ -6,7 +6,7 @@
 ## What is this?
 
 Cybersole's API allows you to send arbitrary commands to an instance or instances.
-This Chrome extension will send commands to the Cybersole API and can be used to trigger custom actions from your browser.
+This Chrome extension will send commands to the Cybersole API and can be used to trigger Smart Actions from your browser.
 
 
 ## Usecase: What exactly is this useful for?
@@ -15,7 +15,7 @@ The number one use case is _really really fast task creation on domain change dr
 
 ![](img/docs/domain-change-example.png)
 
-This is also super-useful for mass link changing on drops where keywords and SKUs won't work (KAWS, Hellstar, etc)!
+This is also super-useful for mass link changing on drops where keywords and SKUs won't work (KAWS, Hellstar, etc), you're gonna be using Chrome to manually hunt down a product and want to be super-fast.
 
 ## Installation + Setup
 
