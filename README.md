@@ -66,7 +66,7 @@ Keybinds make this even quicker and much more dangerous - go to [Chrome Shortcut
 ## Smart Action Setup
 ![](img/docs/quicktask-example.png)
 > [!IMPORTANT]
-When making your own command api smart actions, the `Name` variable will be the command code.  The `Value` variable will be set according to which command you have selected - for example with the Shopify Quicktask it will contain the URL
+When making your own smart actions, the `Name` variable will be the command code.  The `Value` variable will be set according to which command you have selected - for example with the Shopify Quicktask, `Name` will be set as `CMD_QUICKTASK` and `Value` will be the URL of the active page in the Chrome window.
 
 > [!IMPORTANT]
 If you are wanting to use the extension on any possible Shopify site, use `Custom` for the Store in the `Create Tasks` action.  If you want to kind-of-filter the incoming command, you can set a specific store in the Smart Action.  In that case the action will still run if you have a mismatched Store and Command URL, but the action will make a task that will never find a product.
