@@ -26,8 +26,8 @@ This is also super-useful for mass link changing on drops where keywords and SKU
   * At the top, click `Load Unpacked`
   * Navigate to wherever you just parked this extension
 
-3. **Create your Cybersold API Key**
-  * Go to [Your Cybersole Dashboard](https://cybersole.io/dashboard/account)
+3. **Create your Cybersole API Key**
+  * Go to [Your Account in Cybersole Dashboard](https://cybersole.io/dashboard/account)
   * Log in if needed
   * Create an API key with the following scopes:
     - `commands.write`
