@@ -19,7 +19,7 @@ This is also super-useful for mass link changing on drops where keywords and SKU
 
 ## Installation + Setup
 
-1. **Download the [release](https://github.com/Omgitsu/cybersole-launcher/releases) or `git clone` this repo**
+1. **Download the [release](https://github.com/Omgitsu/cybersole-launcher/releases) or use git to clone this repo**
 `git clone https://github.com/Omgitsu/cybersole-launcher.git`
 
 
