@@ -32,7 +32,7 @@ This is also super-useful for mass link changing on drops where keywords and SKU
 Definitely 100% Pin the extension - you're gonna want to find it fast and click it _faster_.
 
 3. **Create your Cybersole API Key**
-  * Go to [your account the cybersole.io Dashboard](https://cybersole.io/dashboard/account) (Log in if needed)
+  * Go to [your account in the cybersole.io Dashboard](https://cybersole.io/dashboard/account) (Log in if needed)
   * Once on `/dashboard/account`, next to `API Keys` click `View`
   * Click `New API Key` and create a key with the following scopes:
     - `commands.write`
