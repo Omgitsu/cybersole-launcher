@@ -69,7 +69,7 @@ Keybinds make this even quicker and much more dangerous - go to [Chrome Shortcut
 
 
 ## Smart Action Setup
-There are a few Smart Action templates included with this repo.  Generally they all have the same basic setup.
+There are a few Smart Action [templates](https://github.com/Omgitsu/cybersole-launcher/blob/master/smartActions/smartActions.json) included with this repo.  Generally they all have the same basic setup.
 - Trigger is set to `Command`
 - Filter is set to `Continue if Name equals` with the `Name` being the Command sent from this extension.  Reference for the Comamnd strings is [below](#command-reference)
 - Actions are whatever you want to do with the `Value` that the Command sends. Typically this is going to be either a URL or a parsed SKU
