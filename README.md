@@ -19,7 +19,10 @@ This is also super-useful for mass link changing on drops where keywords and SKU
 
 ## Installation + Setup
 
-1. **Download the release or clone this repo**
+1. **Download the [release](https://github.com/Omgitsu/cybersole-launcher/releases) or `git clone` this repo**
+`git clone https://github.com/Omgitsu/cybersole-launcher.git`
+
+
 
 2. **Install the Unpacked Extension**
   * Go to [Chrome Extensions](chrome://extensions/) in Chrome
