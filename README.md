@@ -24,6 +24,7 @@ This is also super-useful for mass link changing on drops where keywords and SKU
 
 2. **Install the Unpacked Extension**
   * Go to [Chrome Extensions](chrome://extensions/) in Chrome
+  * Make sure `Developer mode` is toggled on - it can be found at the top right of the page
   * At the top, click `Load Unpacked`
   * Navigate to wherever you just parked this extension
   * Select the folder and finish
